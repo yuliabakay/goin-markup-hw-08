@@ -49,7 +49,6 @@ ul {
 
 .site-nav .link {
     color: #212121;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -67,8 +66,7 @@ ul {
 }
    
 .auth-nav a { 
-    color: #212121;
-    font-family: 'Roboto';
+    color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -94,6 +92,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
@@ -128,7 +127,6 @@ ul {
 
 .features-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -170,7 +168,6 @@ ul {
 
 .section-post-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -201,16 +198,12 @@ ul {
 
 .footer-adress {
     color: var(--primary-white-color);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -227,21 +220,22 @@ ul {
     text-decoration: none;
 }
 
-.menu {
+.main {
     background-color: var(--primary-background);
 }
 
-.menu-button {
+.main-button {
     background-color: var(--secondary-backround);
     color: var(--primary-text-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     cursor: pointer;
 }
-.menu-button:hover,
-.menu-button:focus {
+.main-button:hover,
+.main-button:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
@@ -256,7 +250,6 @@ ul {
 
 .text-pictures {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
