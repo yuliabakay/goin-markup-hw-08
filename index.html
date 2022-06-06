@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css"
+    <title>Document</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/styles.css"
 </head>
 <body>
     <header class="page-header">
+        <div class="container">
         <a href="index.html" <span class="logo-web-primary">Web</span><span class="logo-studio-primary">Studio</span></a>
         <nav>
         <ul class="site-nav list">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="site-nav link"><a href="" class="link current">Студия</a></li>
+            <li class="site-nav link"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="site-nav link"><a href="" class="link">Контакты</a></li>
         </ul>
         </nav>
         <ul class="auth-nav list">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li class="auth-nav link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="auth-nav link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <main>
         <section class="hero">
+          <div class="container">
           <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1> 
           <button type="button" class="hero-button">Заказать услугу</button> 
+          </div>
         </section>
         <section class="features">
-            <ul>
+            <div class="container">
+            <ul class="features-list">
                 <li>
                     <h3 class="features-title">Внимание к деталям</h3>
                     <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -51,8 +57,10 @@
                     <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="benefits">
+            <div class="container">
             <h2 class="benefits-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
@@ -74,8 +82,10 @@
                      height="294"/>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="section">
+            <div class="container">
             <h2 class="section-title">Наша команда</h2>
             <ul class="section-list">
                 <li class="section-item">
@@ -111,14 +121,17 @@
                     <p lang="en" class="section-post-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
        <a href="/" <span class="logo-web-secondary">Web</span><span class="logo-studio-secondary">Studio</span></a>
        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26 <br>
         <a href="mailto:info@example.com" class="footer-link">info@example.com</a><br> 
         <a href="+380991111111" class="footer-link">+38 099 111 11 11</a>
        </address>
+       </div>
     </footer>
 </body>
 </html>
