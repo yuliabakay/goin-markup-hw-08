@@ -31,6 +31,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   border: 1px solid red;
+
 }
 
 .page-header {
@@ -169,8 +170,22 @@ ul {
 }
 
 .features-list {
+  display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+  justify-content: center;
+}
+
+.features-list .item {
+  width: 270px; 
+}
+
+.features-list .item + .item {
+  margin-left: 30px;
 }
 
 .features-title {
@@ -179,12 +194,16 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .features-text {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* about us */
