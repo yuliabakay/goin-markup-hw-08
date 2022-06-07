@@ -219,6 +219,19 @@ ul {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
+.benefits-list .item + .item {
+  margin-left: 30px;
 }
 
 /* our team */
@@ -233,13 +246,37 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
+
+.section-list {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
+.section-item {
+  border: 1px solid transparent;
+  background-color: var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+.section-item + .section-item {
+  margin-left: 30px;
+}
+
+
 
 .section-post-title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
 }
 
 .section-post-text {
@@ -251,6 +288,10 @@ ul {
 /* footer */
 .footer {
   background-color: #2f303a;
+}
+
+.last-nav {
+  padding-top: 60px;
 }
 
 .logo-web-secondary {
@@ -276,6 +317,8 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px;
+  padding-bottom: 60px;
 }
 
 .footer-link {
