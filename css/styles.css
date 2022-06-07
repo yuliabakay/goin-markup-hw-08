@@ -33,12 +33,15 @@ ul {
   border: 1px solid red;
 }
 
-.site-nav list {
-  display: flex;
-}
-
 .page-header {
   background-color: #ffffff;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo-web-primary {
@@ -68,6 +71,25 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.site-nav .link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 0;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
@@ -75,6 +97,11 @@ ul {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
 }
 
 .auth-nav a {
@@ -88,6 +115,10 @@ ul {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
+}
+
+.auth-nav .link + .link {
+  margin-left: 50px;
 }
 
 /* hero */
