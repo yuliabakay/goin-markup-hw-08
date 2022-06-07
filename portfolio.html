@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Document</title>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,33 +15,33 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="container">
+        <div class="container main-nav">
         <a href="index.html" <span class="logo-web-primary">Web</span><span class="logo-studio-primary">Studio</span></a>
         <nav>
         <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li><a href="" class="link current">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="site-nav link"><a href="./index.html" class="link">Студия</a></li>
+            <li class="site-nav link"><a href="" class="link current">Портфолио</a></li>
+            <li class="site-nav link"><a href="" class="link">Контакты</a></li>
         </ul>
         </nav>
         <ul class="auth-nav list">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li class="auth-nav link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="auth-nav link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>  
     <main>
         <section class="main">
             <div class="container">
-    <ul>
-        <li><button type="button" class="main-button">Все</button></li>
-        <li><button type="button" class="main-button">Веб-сайты</button></li>
-        <li><button type="button" class="main-button">Приложения</button></li>
-        <li><button type="button" class="main-button">Дизайн</button></li>
-        <li><button type="button" class="main-button">Маркетинг</button></li>
+    <ul class="menu-button">
+        <li class="item"><button type="button" class="main-button">Все</button></li>
+        <li class="item"><button type="button" class="main-button">Веб-сайты</button></li>
+        <li class="item"><button type="button" class="main-button">Приложения</button></li>
+        <li class="item"><button type="button" class="main-button">Дизайн</button></li>
+        <li class="item"><button type="button" class="main-button">Маркетинг</button></li>
     </ul>
-    <ul>
-        <li>
+    <ul class="menu-pictures">
+        <li class="item">
             <a href="">
                 <img src="./image/tehnokryak.jpg" 
                     alt="ноутбук" 
@@ -52,7 +51,7 @@
                 <p class="text-pictures">Веб-сайт</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/poster.jpg" 
                     alt="игра в баскетбол" 
@@ -62,7 +61,7 @@
                 <p class="text-pictures">Дизайн</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/seafood.jpg" 
                     alt="ресторан" 
@@ -72,7 +71,7 @@
                 <p class="text-pictures">Приложение</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/prime.jpg" 
                     alt="наушники" 
@@ -82,7 +81,7 @@
                 <p class="text-pictures">Маркетинг</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/boxes.jpg" 
                     alt="коробки" 
@@ -92,7 +91,7 @@
                 <p class="text-pictures">Приложение</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/inspiration.jpg" 
                     alt="монитор" 
@@ -102,7 +101,7 @@
                 <p class="text-pictures">Веб-сайт</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/book.jpg" 
                     alt="книга" 
@@ -112,7 +111,7 @@
                 <p class="text-pictures">Дизайн</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/lab.jpg" 
                     alt="ярлык" 
@@ -122,7 +121,7 @@
                 <p class="text-pictures">Маркетинг</p>    
             </a>
         </li>
-        <li>
+        <li class="item">
              <a href="">
                 <img src="./image/growing.jpg" 
                     alt="ноутбук" 
@@ -137,11 +136,13 @@
     </section>
 </main>
   <footer class="footer">
+       <div class="container last-nav">
        <a href="/" <span class="logo-web-secondary">Web</span><span class="logo-studio-secondary">Studio</span></a>
        <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26 <br>
         <a href="mailto:info@example.com" class="footer-link">info@example.com</a><br> 
         <a href="+380991111111" class="footer-link">+38 099 111 11 11</a>
        </address>
+       </div>
     </footer>
 </body>
 </html>
