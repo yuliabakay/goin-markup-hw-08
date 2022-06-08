@@ -34,6 +34,7 @@ ul {
 
 .page-header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -70,11 +71,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:not(:last-child) {
+.site-nav .link-nav:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav .link {
+.site-nav .link-nav {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -127,6 +128,11 @@ ul {
   text-align: center;
 }
 
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -138,7 +144,6 @@ ul {
 
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .hero-button {
@@ -151,7 +156,6 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  margin-bottom: 200px;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -165,14 +169,14 @@ ul {
 
 /* ---------- FEATURE ----------- */
 
-.features {
-  background-color: var(--primary-background);
+.features .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 
 .features-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-top: 0;
   margin-bottom: 0;
   flex-wrap: wrap;
@@ -210,8 +214,9 @@ ul {
 
 /* ------------ ABOUT US ------------- */
 
-.benefits {
-  background-color: var(--primary-background);
+
+.benefits .container {
+  padding-bottom: 94px;
 }
 
 .benefits-title {
@@ -230,7 +235,6 @@ ul {
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 94px;
 }
 
 .benefits-list .item + .item {
@@ -243,13 +247,18 @@ ul {
   background-color: var(--secondary-backround);
 }
 
+.section .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-top: 94px;
+  
   margin-bottom: 50px;
   margin-top: 0;
 }
@@ -260,7 +269,7 @@ ul {
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 94px;
+  
 }
 
 .section-item {
@@ -296,6 +305,7 @@ ul {
 
 .last-nav {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-web-secondary {
@@ -323,7 +333,7 @@ ul {
   font-style: normal;
 
   margin-top: 20px;
-  padding-bottom: 60px;
+  
 }
 
 .footer-link {
@@ -345,8 +355,10 @@ ul {
   text-decoration: none;
 }
 
-.main {
-  background-color: var(--primary-background);
+
+.main .container {
+   padding-top: 100px;
+   padding-bottom: 94px;
 }
 
 .menu-button {
@@ -354,7 +366,6 @@ ul {
   justify-content: center;
   margin-bottom: 50px;
   margin-top: 0;
-  padding-top: 100px;
   padding-inline-start: 0;
 }
 
@@ -373,7 +384,7 @@ ul {
   cursor: pointer;
 
   min-width: 73px;
-  height: 38px;
+  padding: 6px 22px 6px 22px;
   border-radius: 4px;
   border-color: transparent;
 }
@@ -391,7 +402,7 @@ ul {
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 94px;
+  
 }
 
 .menu-pictures .item {
@@ -412,6 +423,12 @@ ul {
   margin-bottom: 0;
 }
 
+.name-pictures {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
 .title-pictures {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -419,17 +436,15 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
-  margin-left: 24px;
   margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .text-pictures {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
-  margin-left: 24px;
 
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
