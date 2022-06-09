@@ -322,6 +322,12 @@ ul {
   font-style: normal;
 
   margin-top: 20px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-adress .item + .item {
+  margin-top: 9px;
 }
 
 .footer-link {
