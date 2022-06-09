@@ -280,13 +280,19 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 .section-post-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 0;
+}
+
+.section-box {
+  padding-top: 30px;
+  padding-bottom: 30px; 
 }
 
 /* ------------ FOOTER ------------- */
