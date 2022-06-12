@@ -22,7 +22,7 @@ ul {
   list-style: none;
 }
 
-/* -------- HEADER --------- */
+/* ----------------- HEADER --------------------- */
 
 .container {
   margin-left: auto;
@@ -122,10 +122,18 @@ ul {
   margin-left: 50px;
 }
 
-/* ----------- HERO ------------ */
+/* ------------------------ HERO -------------------------- */
 
 .hero {
-  background-color: #2f303a;
+  background-color: #C4C4C4;
+  background-image:  linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../image/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -287,12 +295,44 @@ ul {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 0;
+  margin-bottom: 16px;
+  
 }
 
 .section-box {
   padding-top: 30px;
   padding-bottom: 30px; 
+}
+
+.members-soc-list{
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.members-soc-item{
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+
+}
+
+.members-soc-item:first-child{
+  margin-left: 0;
+}
+
+.members-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.members-soc-icon {
+  fill: #AFB1B8;
 }
 
 /* ------------ FOOTER ------------- */
