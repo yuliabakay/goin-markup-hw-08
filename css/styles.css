@@ -328,11 +328,21 @@ ul {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: red;
+  
 }
 
 .members-soc-icon {
   fill: #AFB1B8;
+}
+
+.members-soc-link:hover,
+.members-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.members-soc-link:hover .members-soc-icon,
+.members-soc-link:focus .members-soc-icon {
+  fill: var(--primary-white-color);
 }
 
 /* ------------ FOOTER ------------- */
