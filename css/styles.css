@@ -11,7 +11,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --primary-background: #e5e5e5;
-  --secondary-backround: #f5f4fa;
+  --secondary-background: #f5f4fa;
 }
 
 body {
@@ -197,6 +197,40 @@ ul {
   margin-left: 30px;
 }
 
+.features-list .item::before {
+  display: block;
+  content:'';
+  height: 120px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--secondary-background);
+  border-radius: 4px;
+}
+
+.features-list .item:nth-child(1):before {
+  background-image: url(../image/antenna.svg);
+  background-size: 65px 70px;
+} 
+
+.features-list .item:nth-child(2):before {
+  background-image: url(../image/clock.svg);
+  background-size: 67px 70px;
+} 
+
+.features-list .item:nth-child(3):before {
+  background-image: url(../image/nout.svg);
+  background-size: 70px 54px;
+} 
+
+.features-list .item:nth-child(4):before {
+  background-image: url(../image/spaceman.svg);
+  background-size: 55px 61px;
+} 
+
+
+
+
 .features-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -204,7 +238,7 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -344,6 +378,19 @@ ul {
 .members-soc-link:focus .members-soc-icon {
   fill: var(--primary-white-color);
 }
+
+/* ------------------- CLIENTS ------------------ */
+
+.clients-title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
 
 /* ------------ FOOTER ------------- */
 
