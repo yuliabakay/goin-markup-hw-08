@@ -222,22 +222,22 @@ ul {
   background-size: 70px 70px;
 }
 
-.features-list .item:nth-child(1):before {
+.features-list .item:nth-child(1)::before {
   background-image: url(../image/antenna.svg);
   
 } 
 
-.features-list .item:nth-child(2):before {
+.features-list .item:nth-child(2)::before {
   background-image: url(../image/clock.svg);
   
 } 
 
-.features-list .item:nth-child(3):before {
+.features-list .item:nth-child(3)::before {
   background-image: url(../image/nout.svg);
   
 } 
 
-.features-list .item:nth-child(4):before {
+.features-list .item:nth-child(4)::before {
   background-image: url(../image/spaceman.svg);
 } 
 
