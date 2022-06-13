@@ -228,21 +228,16 @@ ul {
 } 
 
 .features-list .item:nth-child(2)::before {
-  background-image: url(../image/clock.svg);
-  
+  background-image: url(../image/clock.svg);  
 } 
 
 .features-list .item:nth-child(3)::before {
-  background-image: url(../image/nout.svg);
-  
+  background-image: url(../image/nout.svg); 
 } 
 
 .features-list .item:nth-child(4)::before {
   background-image: url(../image/spaceman.svg);
 } 
-
-
-
 
 .features-title {
   color: var(--primary-text-color);
