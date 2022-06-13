@@ -118,32 +118,18 @@ ul {
   color: var(--accent-color);
 }
 
+
 .auth-nav .link + .link {
   margin-left: 50px;
 }
 
-.auth-nav .link::before { display: inline-block;
-  content:'';
-  width: 16px;
-  height: 12px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--secondary-text-color--);
-}
-
-.auth-nav .link:nth-child(1):before {
-  background-image: url(../image/envelope.svg);
-  width: 16px;
-  height: 12px;
+.header-envelope {
   margin-right: 10px;
 }
 
-.auth-nav .link:nth-child(2):before {
-  background-image: url(../image/phone.svg);
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
+.auth-nav .link:hover .header-envelope,  
+.auth-nav .link:hover .header-envelope {
+  fill: var(--accent-color)
 }
 
 
@@ -163,6 +149,7 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  min-width: 1600px;
 }
 
 .hero-title {
@@ -252,7 +239,6 @@ ul {
 
 .features-list .item:nth-child(4):before {
   background-image: url(../image/spaceman.svg);
-  
 } 
 
 
@@ -466,6 +452,10 @@ ul {
   padding-bottom: 60px;
 }
 
+.contacts {
+  display: flex;
+}
+
 .logo-web-secondary {
   color: var(--accent-color);
   font-family: "Raleway";
@@ -511,6 +501,55 @@ ul {
 .footer-link:focus {
   color: var(--accent-color);
 }
+
+.footer-title {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px ;
+  line-height: 1.17;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.footer-soc-list{
+  display: flex;
+  padding-inline-start: 0;
+}
+
+.footer-soc-item{
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+
+}
+
+.footer-soc-item:first-child{
+  margin-left: 0;
+}
+
+.footer-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-icon {
+  fill: var(--primary-white-color);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-soc-information{
+  margin-left: 70px;
+}
+
 
 /* ------------ PAGE PORTFOLIO ----------- */
 

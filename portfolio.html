@@ -26,9 +26,17 @@
             <li class="link-nav"><a href="" class="link">Контакты</a></li>
         </ul>
         </nav>
-        <ul class="auth-nav list">
-            <li class="auth-nav link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="auth-nav link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+         <ul class="auth-nav list">
+            <li class="auth-nav link">
+                <svg class="header-envelope" width="16" height="12">
+                    <use href="./image/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                <a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a></li>
+            <li class="auth-nav link">
+                <svg class="header-envelope" width="10" height="17">
+                    <use href="./image/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <a href="tel:+380961111111" class="item">+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>  
@@ -156,13 +164,48 @@
     </section>
 </main>
   <footer class="footer">
-       <div class="container">
+       <div class="container contacts">
+           <div class="footer-adress-information">
        <a href="/" <span class="logo-web-secondary">Web</span><span class="logo-studio-secondary">Studio</span></a>
        <ul class="footer-adress">
            <li class="item">г. Киев, пр-т Леси Украинки, 26</li>
            <li class="item"><a href="mailto:info@example.com" class="footer-link">info@example.com</a></li>
            <li class="item"><a href="+380991111111" class="footer-link">+38 099 111 11 11</a></li>
        </ul>
+           </div>
+       <div class="footer-soc-information">
+           <h2 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+           <ul class="footer-soc-list list">
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                <use href="./image/icons.svg#icon-instagram"></use> 
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link">
+                                <svg class="footer-soc-icon" width="20" height="20">
+                                    <use href="./image/icons.svg#icon-linkedin2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
       </div>
     </footer>
 </body>
