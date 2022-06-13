@@ -228,7 +228,7 @@ ul {
 } 
 
 .features-list .item:nth-child(2)::before {
-  background-image: url(../image/icons.svg#icon-clock);  
+  background-image: url(../image/clock.svg);  
 } 
 
 .features-list .item:nth-child(3)::before {
