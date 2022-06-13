@@ -146,10 +146,7 @@ ul {
   margin-right: 10px;
 }
 
-.auth-nav .link:hover:before,
-.auth-nav .link:focus:before {
-  color: #2196F3;
-}
+
 
 /* ------------------------ HERO -------------------------- */
 
@@ -421,6 +418,16 @@ ul {
   margin-bottom: 50px;
 }
 
+.clients-icon{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+
+}
 
 /* ------------ FOOTER ------------- */
 
