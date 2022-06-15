@@ -113,23 +113,20 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.auth-nav .item:hover,
-.auth-nav .item:focus {
+.auth-nav-item:hover,
+.auth-nav-item:focus {
   color: var(--accent-color);
 }
 
 
-.auth-nav .link + .link {
+.auth-nav-link + .auth-nav-link {
   margin-left: 50px;
 }
 
 .header-envelope {
   margin-right: 10px;
-}
-
-.auth-nav .link:hover .header-envelope,  
-.auth-nav .link:focus .header-envelope {
-  fill: var(--accent-color)
+  fill: currentColor;
+  vertical-align: middle;
 }
 
 
