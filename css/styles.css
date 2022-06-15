@@ -417,10 +417,11 @@ ul {
   fill: #AFB1B8;
 }
 
-.clients-icon-item:hover .clients-logo-icon,
-.clients-icon-item:focus .clients-logo-icon {
+.clients-icon:hover .clients-logo-icon,
+.clients-icon:focus .clients-logo-icon {
   fill: var(--accent-color);
 }
+
 
 /* --------------------- FOOTER --------------------- */
 
