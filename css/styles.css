@@ -128,7 +128,7 @@ ul {
 }
 
 .auth-nav .link:hover .header-envelope,  
-.auth-nav .link:hover .header-envelope {
+.auth-nav .link:focus .header-envelope {
   fill: var(--accent-color)
 }
 
@@ -276,7 +276,7 @@ ul {
 /* --------------------- OUR TEAM ----------------------- */
 
 .section {
-  background-color: var(--secondary-backround);
+  background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -535,6 +535,10 @@ ul {
 
 [href] {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .main {
