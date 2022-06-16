@@ -289,8 +289,10 @@ ul {
   text-transform: uppercase;
   margin: 0;
   padding-top: 27px;
+
   position: absolute;
   bottom: 0;
+  right: 0;
 }
 
 /* --------------------- OUR TEAM ----------------------- */
@@ -643,6 +645,40 @@ img {
   padding-left: 24px;
   padding-bottom: 20px;
 }
+
+.image-card {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*.image-card::before {
+  display: flex;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;*/
+
+   
+
+
+.image-text {
+  font-weight: 400;
+   font-size: 18px;
+   line-height: 1.56;
+   color: var(--primary-white-color);
+   text-align: center;
+   justify-content: center;
+   margin: 0;
+   background-color: rgba(33, 150, 243, 0.9);
+   display: flex;
+   position: absolute;
+}
+
 
 .title-pictures {
   color: var(--primary-text-color);
