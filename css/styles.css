@@ -119,6 +119,7 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+  transition: transform 250ms var(--timing-function);
 }
 
 .site-nav .link.current {
@@ -142,6 +143,7 @@ ul {
 .auth-nav-item:hover,
 .auth-nav-item:focus {
   color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 
@@ -207,6 +209,7 @@ ul {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
+  transition: transform 250ms var(--timing-function);
 }
 
 /* -------------------- FEATURE ---------------------- */
@@ -414,11 +417,13 @@ ul {
 .members-soc-link:hover,
 .members-soc-link:focus {
   background-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .members-soc-link:hover .members-soc-icon,
 .members-soc-link:focus .members-soc-icon {
   fill: var(--primary-white-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 /* ---------------------- CLIENTS --------------------- */
@@ -462,6 +467,7 @@ ul {
 .clients-icon-item:hover,
 .clients-icon-item:focus {
   border-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .clients-logo-icon {
@@ -471,6 +477,7 @@ ul {
 .clients-icon:hover .clients-logo-icon,
 .clients-icon:focus .clients-logo-icon {
   fill: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 
@@ -530,6 +537,7 @@ ul {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .footer-title {
@@ -573,6 +581,7 @@ ul {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
 }
 
 .footer-soc-information{
@@ -631,6 +640,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
   0px 1px 2px rgba(0, 0, 0, 0.08), 
   0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: transform 250ms var(--timing-function);
 }
 
 .menu-pictures {
@@ -664,7 +674,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
   0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
-
+  transition: transform 250ms var(--timing-function);
 } 
 
 .name-pictures {
@@ -709,13 +719,14 @@ img {
 
 .menu-pictures .item:hover .image-card::before{
   transform: translateY(0);
+  transition: transform 250ms var(--timing-function);
 } 
+
 .menu-pictures .item:hover .image-text{
   opacity: 1;
+  transition: transform 250ms var(--timing-function);
 }
   
-
-
 .title-pictures {
   color: var(--primary-text-color);
   font-weight: 700;
