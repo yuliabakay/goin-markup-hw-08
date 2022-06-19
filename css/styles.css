@@ -204,13 +204,14 @@ ul {
   height: 50px;
   border-radius: 4px;
   border-color: var(--accent-color);
+  transition: transform 250ms var(--timing-function);
+
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
-  transition: transform 250ms var(--timing-function);
-}
+  background-color: #188ce8;}
+  
 
 /* -------------------- FEATURE ---------------------- */
 
