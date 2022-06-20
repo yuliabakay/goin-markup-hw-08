@@ -70,7 +70,7 @@ ul {
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
-
+  transition: color 250ms var(--timing-function);
   
 }
 
@@ -109,7 +109,6 @@ ul {
   border-radius: 2px;
 
   opacity: 0;
-  transform: opacity 250ms var(--timing-function);
 }
 
 .site-nav .link.current::after{
@@ -119,7 +118,6 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
-  transition: transform 250ms var(--timing-function);
 }
 
 .site-nav .link.current {
@@ -138,12 +136,12 @@ ul {
   line-height: 1.14;
   text-decoration: none;
   letter-spacing: 0.02em;
+  transition: color 250ms var(--timing-function);
 }
 
 .auth-nav-item:hover,
 .auth-nav-item:focus {
   color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
 }
 
 
@@ -204,13 +202,13 @@ ul {
   height: 50px;
   border-radius: 4px;
   border-color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
-
+  transition: background-color 250ms var(--timing-function);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;}
+  background-color: #188ce8;
+}
   
 
 /* -------------------- FEATURE ---------------------- */
@@ -408,23 +406,26 @@ ul {
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-radius: 50%;  
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .members-soc-icon {
   fill: #AFB1B8;
-}
+  transition: fill 1250ms var(--timing-function);
+} 
+
 
 .members-soc-link:hover,
 .members-soc-link:focus {
-  background-color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
+  background-color: var(--accent-color); 
 }
 
 .members-soc-link:hover .members-soc-icon,
 .members-soc-link:focus .members-soc-icon {
   fill: var(--primary-white-color);
-  transition: transform 250ms var(--timing-function);
 }
 
 /* ---------------------- CLIENTS --------------------- */
@@ -451,6 +452,9 @@ ul {
   height: 92px;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .clients-icon-item + .clients-icon-item{
@@ -463,23 +467,28 @@ ul {
   justify-content: center;
   width: 100%;
   height: 100%;
+
+  
 }
 
 .clients-icon-item:hover,
 .clients-icon-item:focus {
-  border-color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
+  border-color: var(--accent-color); 
 }
 
 .clients-logo-icon {
   fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 1250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .clients-icon:hover .clients-logo-icon,
 .clients-icon:focus .clients-logo-icon {
   fill: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
 }
+
+
 
 
 /* --------------------- FOOTER --------------------- */
@@ -533,12 +542,14 @@ ul {
   line-height: 1.71;
   text-decoration: none;
   font-style: normal;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
 }
 
 .footer-title {
@@ -573,6 +584,9 @@ ul {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .footer-soc-icon {
@@ -582,7 +596,6 @@ ul {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
-  transition: transform 250ms var(--timing-function);
 }
 
 .footer-soc-information{
@@ -632,6 +645,9 @@ img {
   border-radius: 4px;
   border-color: transparent;
   background-color: var(--secondary-background);
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .main-button:hover,
@@ -641,7 +657,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
   0px 1px 2px rgba(0, 0, 0, 0.08), 
   0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: transform 250ms var(--timing-function);
 }
 
 .menu-pictures {
@@ -661,10 +676,15 @@ img {
 
   margin-right: 30px;
   margin-bottom: 30px;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .menu-pictures .item:nth-child(3n) {
   margin-right: 0;
+  
 }
 
 .menu-pictures .item:nth-last-child(-n + 3) {
@@ -675,7 +695,6 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
   0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: transform 250ms var(--timing-function);
 } 
 
 .name-pictures {
@@ -716,16 +735,19 @@ img {
    top: 0;
    left: 0;
    opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .menu-pictures .item:hover .image-card::before{
   transform: translateY(0);
-  transition: transform 250ms var(--timing-function);
-} 
+}
+  
 
 .menu-pictures .item:hover .image-text{
   opacity: 1;
-  transition: transform 250ms var(--timing-function);
 }
   
 .title-pictures {
