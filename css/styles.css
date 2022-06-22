@@ -868,15 +868,29 @@ img {
   margin-bottom: 12px;
 }
 
-/*.label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+.modal-field textarea::placeholder{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  color: rgba(117, 117, 117, 0.5);
+  padding-top: 12px;
+  padding-left: 16px;
 }
 
-.input{
-  font-family: inherit;
-}*/
+.modal-field textarea{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-checkbox {
+  width: 448px;
+  padding-left: 40px;
+}
+
+.modal-doc{
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+}
 
 .modal-btn {
   width: 200px;
