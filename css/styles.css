@@ -887,6 +887,14 @@ img {
   padding-left: 40px;
 }
 
+.modal-label-checkbox{
+  font-weight: 400;
+  font-style: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
 .modal-doc{
   color: var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
