@@ -398,18 +398,37 @@
             <form>
                 <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
                 <div class="modal-field">
-                <label for="name" class="modal-label">Имя</label> 
-                <input  class="modal-input" type="text" name="name" id="name"/> 
-                </div>
+                <label for="name" class="modal-label">Имя</label>
+                <input  class="modal-input" 
+                type="text" 
+                name="name" 
+                id="name" 
+                placeholder=" "/> 
+                <span class="modal-icon">
+                    <svg class="modal-label-icon" width="12" height="12">
+                        <use href="./image/icons.svg#icon-men-modal"></use>
+                    </svg>
+                </span>
+            </div>
 
                 <div class="modal-field">
                 <label for="tel" class="modal-label">Телефон</label>
-                <input class="modal-input" type="tel" name="tel" id="tel"/>   
+                <span class="modal-icon">
+                    <svg class="modal-label-icon" width="13" height="13">
+                        <use href="./image/icons.svg#icon-phone-modal"></use>
+                    </svg>
+                </span> 
+                <input class="modal-input" type="tel" name="tel" id="tel"/>         
                 </div>
 
                 <div class="modal-field">
                 <label for="email" class="modal-label">Почта</label>  
-                <input class="modal-input" type="email" name="email" id="email"/> 
+                <span class="modal-icon">
+                    <svg class="modal-label-icon" width="15" height="12">
+                        <use href="./image/icons.svg#icon-letter-modal"></use>
+                    </svg>
+                </span>
+                <input class="modal-input" type="email" name="email" id="email"/>   
                 </div>
 
                 <div class="modal-field">
