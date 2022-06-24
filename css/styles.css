@@ -838,7 +838,8 @@ img {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  
+  position: relative;
+  display: block;
 }
 
 .title-modal {
@@ -853,13 +854,6 @@ img {
   margin-bottom: 12px;
 }
 
-.modal-icon{
-  position:absolute;
-  top: 30px;
-  left: 15px;
-  display:inline-block;
-}
-
 .modal-field textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -872,6 +866,13 @@ img {
 .modal-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.modal-label-icon{
+  position:absolute;
+  top: 0;
+  left: 0;
+  
 }
 
 .modal-checkbox {
