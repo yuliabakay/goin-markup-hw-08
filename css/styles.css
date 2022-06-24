@@ -885,11 +885,20 @@ img {
 }
 
 .modal-input-checkbox{
-  -webkit-appearance: none;
+  /*-webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
+  position: absolute;*/
+
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .checkbox-icon {
@@ -918,7 +927,7 @@ img {
 .modal-input-checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url('../image/checkbox.svg');
+  background-image: url(../image/checkbox.svg);
   background-size: contain;
   background-origin: border-box;
 }
