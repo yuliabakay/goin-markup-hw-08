@@ -399,46 +399,66 @@
                 <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
              <div class="modal-field">
                 <label for="name" class="modal-label">Имя</label>
+                <div class="modal-input-icon">
                 <input type="text" 
                    class="modal-input"  
                    name="name" 
                    id="name" 
                    placeholder=" "/> 
-                <svg class="modal-label-icon" width="12" height="12">
+                <svg class="modal-label-icon" 
+                width="12" 
+                height="12">
                     <use href="./image/icons.svg#icon-men-modal"></use>
                 </svg>
-            
+                </div>
              </div>
 
-                <div class="modal-field">
+            <div class="modal-field">
                 <label for="tel" class="modal-label">Телефон</label>
-                <span class="modal-icon">
-                    <svg class="modal-label-icon" width="13" height="13">
+                <div class="modal-input-icon">
+                    <input class="modal-input" 
+                    type="tel" 
+                    name="tel" 
+                    id="tel"/> 
+                    <svg class="modal-label-icon" 
+                    width="13" 
+                    height="13">
                         <use href="./image/icons.svg#icon-phone-modal"></use>
-                    </svg>
-                </span> 
-                <input class="modal-input" type="tel" name="tel" id="tel"/>         
-                </div>
+                    </svg>        
+                </div>    
+            </div>
 
-                <div class="modal-field">
+            <div class="modal-field">
                 <label for="email" class="modal-label">Почта</label>  
-                <span class="modal-icon">
-                    <svg class="modal-label-icon" width="15" height="12">
+                <div class="modal-input-icon">
+                    <input class="modal-input" 
+                    type="email" 
+                    name="email" 
+                    id="email"/>  
+                    <svg class="modal-label-icon" 
+                    width="15" 
+                    height="12">
                         <use href="./image/icons.svg#icon-letter-modal"></use>
-                    </svg>
-                </span>
-                <input class="modal-input" type="email" name="email" id="email"/>   
-                </div>
+                    </svg>   
+                </div>    
+            </div>
 
                 <div class="modal-field">
                 <label for="comment" class="modal-label">Комментарий</label> 
                 <textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea> 
                 </div>
 
-                <div class="modal-checkbox">
-                <input class="modal-input" type="checkbox" name="" value="offer" id="offer" /> 
-                <label for="offer" class="modal-label-checkbox">Соглашаюсь с рассылкой и принимаю <a href="" class="modal-doc">Условия договора</a></label>  
-                </div>    
+            <label for="offer" 
+                class="modal-label-checkbox">
+                <input class="modal-input-checkbox" 
+                type="checkbox" 
+                name="" 
+                value="offer" /> 
+                <span class="checkbox-icon"></span>       
+                Соглашаюсь с рассылкой и принимаю 
+                <a href="" class="modal-doc">Условия договора</a>         
+            </label>  
+                   
                 
                 <button type="Submit" class="modal-btn">Отправить</button>
             </form>
