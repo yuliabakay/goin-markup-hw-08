@@ -612,10 +612,16 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.06em;
   margin-left: 12px;
-  
+   
   border-color: transparent; 
   position: relative;
+
+  padding-left: 0;
+  padding-right: 29px;
+  cursor: pointer;
 }
+
+
 
 .footer-communication{
   display: block;
@@ -630,6 +636,8 @@ ul {
 .footer-icon-btn{
   fill: var(--primary-white-color);
   position: absolute;
+  margin-left: 10px;
+  
 }
 
 .footer-input{
