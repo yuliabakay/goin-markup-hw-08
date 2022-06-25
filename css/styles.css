@@ -349,8 +349,9 @@ ul {
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+              0px 1px 1px rgba(0, 0, 0, 0.14),
+              0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .section-item + .section-item {
@@ -636,8 +637,7 @@ ul {
 .footer-icon-btn{
   fill: var(--primary-white-color);
   position: absolute;
-  margin-left: 10px;
-  
+  margin-left: 10px; 
 }
 
 .footer-input{
@@ -749,8 +749,9 @@ img {
 }
 
 .menu-pictures .item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+              0px 4px 4px rgba(0, 0, 0, 0.06),
+              1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .name-pictures {
@@ -934,8 +935,7 @@ img {
 }
 
 .modal-input:hover + .modal-label-icon,
-.modal-input:focus + .modal-label-icon {
-  
+.modal-input:focus + .modal-label-icon {  
   fill: var(--accent-color);
 }
 
@@ -1005,27 +1005,28 @@ img {
   height: 15px;
 
   border: 2px solid #212121;
-  border-radius: 2px;
-  margin-left: 52px;
+  border-radius: 2px; 
 }
 
 
 
 .modal-label-checkbox {
-  display: inline-block;
+  display: block;
   font-weight: 400;
   font-style: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   justify-content: center;
-  text-align: center;  
+  text-align: center;
+  margin-bottom: 30px; 
+  margin-top: 20px; 
 }
 
 .modal-input-checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
-  background-image: url(../image/checkbox.svg);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E"););
   background-size: contain;
   background-origin: border-box;
 }
