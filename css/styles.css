@@ -470,7 +470,7 @@ ul {
 .clients-logo-icon {
   fill: #afb1b8;
   transition-property: fill;
-  transition-duration: 1250ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
 
