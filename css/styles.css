@@ -5,7 +5,7 @@
 /* основной фон #E5E5E5 */
 /* дополнительный фон #F5F4FA */
 
-:root {
+/*:root {
   --primary-text-color: rgba(33, 33, 33, 1);
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
@@ -25,7 +25,7 @@ ul {
 
 /* ----------------- HEADER --------------------- */
 
-.container {
+/*.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -155,7 +155,7 @@ ul {
 
 /* ------------------------ HERO -------------------------- */
 
-.hero {
+/*.hero {
   background-color: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -208,7 +208,7 @@ ul {
 
 /* -------------------- FEATURE ---------------------- */
 
-.features {
+/*.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -266,7 +266,7 @@ ul {
 
 /* -------------------- ABOUT US ------------------- */
 
-.benefits {
+/*.benefits {
   padding-bottom: 94px;
 }
 
@@ -319,7 +319,7 @@ ul {
 
 /* --------------------- OUR TEAM ----------------------- */
 
-.section {
+/*.section {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -423,7 +423,7 @@ ul {
 
 /* ---------------------- CLIENTS --------------------- */
 
-.clients-title {
+/*.clients-title {
   font-weight: 700;
   text-align: center;
   font-size: 36px;
@@ -481,7 +481,7 @@ ul {
 
 /* --------------------- FOOTER --------------------- */
 
-.footer {
+/*.footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -665,7 +665,7 @@ ul {
 
 /* ------------------- PAGE PORTFOLIO ------------------ */
 
-[href] {
+/*[href] {
   text-decoration: none;
 }
 
@@ -718,7 +718,9 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.menu-pictures {
+ /*--------------------MENU PICTURES--------------------*/
+
+/*.menu-pictures {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -827,7 +829,10 @@ img {
   margin-bottom: 0;
 }
 
-.backdrop {
+/* ------------------- MODAL ------------------ */
+
+
+/*.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -998,7 +1003,7 @@ img {
 
   position: absolute;*/
 
-  position: absolute;
+  /*position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
