@@ -130,16 +130,16 @@
   margin-top: 0;
 }
 
-.modal-field textarea::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .modal-field textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+     &::placeholder {
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 1.17;
+     color: rgba(117, 117, 117, 0.5);
+}
 }
 
 .modal-label-icon{

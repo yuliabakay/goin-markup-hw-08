@@ -55,6 +55,13 @@ ul {
   align-items: center;
 }
 
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .site-nav .link {
   color: #212121;
   font-weight: 500;
@@ -79,7 +86,6 @@ ul {
 .site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
 }
-
 .site-nav .link-nav {
   display: block;
   padding-top: 32px;
@@ -89,14 +95,6 @@ ul {
 }
 .site-nav .link-nav:not(:last-child) {
   margin-right: 50px;
-}
-
-.site-nav {
-  display: flex;
-  margin-left: 93px;
-  padding-inline-start: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .site-nav .link.current {
@@ -110,7 +108,6 @@ ul {
   display: flex;
   margin-left: auto;
 }
-
 .auth-nav a {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -192,7 +189,6 @@ ul {
   padding-inline-start: 0;
   justify-content: center;
 }
-
 .features-list .item {
   width: 270px;
 }
@@ -559,16 +555,15 @@ ul {
   margin-top: 0;
 }
 
+.modal-field textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 .modal-field textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-field textarea {
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
 }
 
 .modal-label-icon {
@@ -889,7 +884,6 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .menu-pictures .item {
   width: 370px;
   height: 404px;

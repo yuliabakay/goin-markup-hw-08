@@ -10,11 +10,13 @@
   flex-wrap: wrap;
   padding-inline-start: 0;
   justify-content: center;
+
+    .item {
+    width: 270px;
+}
 }
 
-.features-list .item {
-  width: 270px;
-}
+
 
 .features-list .item + .item {
   margin-left: 30px;
