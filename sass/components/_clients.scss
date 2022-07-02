@@ -23,10 +23,11 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-}
-
-.clients-icon-item + .clients-icon-item {
-  margin-left: 30px;
+   &:hover,
+   &:focus {
+    border-color: var(--accent-color);}
+   & + & {
+   margin-left: 30px;}
 }
 
 .clients-icon {
@@ -35,11 +36,6 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-}
-
-.clients-icon-item:hover,
-.clients-icon-item:focus {
-  border-color: var(--accent-color);
 }
 
 .clients-logo-icon {

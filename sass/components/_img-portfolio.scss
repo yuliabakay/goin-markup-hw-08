@@ -44,9 +44,7 @@
 .image-card {
   position: relative;
   overflow: hidden;
-}
-
-.image-card::before {
+  &::before {
   content: "";
   display: inline-block;
   width: 100%;
@@ -56,6 +54,9 @@
   transition: transform 250ms var(--timing-function);
   background-color: rgba(33, 150, 243, 0.9);
 }
+}
+
+
 
 .image-text {
   font-weight: 400;

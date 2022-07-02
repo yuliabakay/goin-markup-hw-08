@@ -1,8 +1,7 @@
 .benefits {
   padding-bottom: 94px;
-}
 
-.benefits-title {
+  &-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -12,7 +11,7 @@
   margin-top: 0;
 }
 
-.benefits-list {
+  &-list {
   display: flex;
   justify-content: center;
   padding-inline-start: 0;
@@ -20,15 +19,11 @@
   margin-bottom: 0;
 }
 
-.benefits-list .item + .item {
-  margin-left: 30px;
-}
-
-.benefits-card {
+  &-card {
   position: relative;
 }
 
-.benefits-item-title {
+  &-item-title {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
@@ -48,3 +43,10 @@
   bottom: 0;
   right: 0;
 }
+}
+
+.benefits-list .item + .item {
+  margin-left: 30px;
+}
+
+
