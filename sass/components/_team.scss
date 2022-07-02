@@ -2,8 +2,9 @@
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
-  &-title {
+.section-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -14,7 +15,7 @@
   margin-top: 0;
 }
 
-  &-list {
+.section-list {
   display: flex;
   justify-content: center;
   padding-inline-start: 0;
@@ -22,7 +23,7 @@
   margin-bottom: 0;
 }
 
-  &-item {
+.section-item {
   border: 1px solid transparent;
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
@@ -30,11 +31,13 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
               0px 1px 1px rgba(0, 0, 0, 0.14),
               0px 2px 1px rgba(0, 0, 0, 0.2);
-  & + & {
-  margin-left: 30px;}            
 }
 
-  &-post-title {
+.section-item + .section-item {
+  margin-left: 30px;
+}
+
+.section-post-title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -42,17 +45,16 @@
   margin-top: 0;
 }
 
-  &-post-text {
+.section-post-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 16px;
 }
 
-  &-box {
+.section-box {
   padding-top: 30px;
   padding-bottom: 30px;
-}
 }
 
 .members-soc-list {
@@ -65,8 +67,10 @@
   width: 44px;
   height: 44px;
   margin-left: 10px;
-  &:first-child {
-  margin-left: 0;}
+
+    &:first-child {
+  margin-left: 0;
+}
 }
 
 .members-soc-link {
@@ -79,9 +83,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-  &:hover,
-  &:focus {
-  background-color: var(--accent-color);}
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+}
 }
 
 .members-soc-icon {
