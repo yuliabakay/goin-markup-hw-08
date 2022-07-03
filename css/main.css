@@ -827,14 +827,6 @@ ul {
   padding-left: 16px;
 }
 
-[href] {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
 .main {
   padding-top: 100px;
   padding-bottom: 94px;
