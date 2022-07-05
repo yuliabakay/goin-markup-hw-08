@@ -463,7 +463,7 @@ img {
   min-width: 1600px;
 }
 
-.hero__title {
+.hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -475,7 +475,7 @@ img {
   margin-bottom: 30px;
 }
 
-.hero__button {
+.hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -490,7 +490,7 @@ img {
   border-color: var(--accent-color);
   transition: background-color 250ms var(--timing-function);
 }
-.hero__button:hover, .hero__button:focus {
+.hero-button:hover, .hero-button:focus {
   background-color: #188ce8;
 }
 
