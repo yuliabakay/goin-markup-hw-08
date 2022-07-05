@@ -32,7 +32,6 @@ transition: color 250ms var(--timing-function);
 color: #2196f3;}}
 
 .menu__link--current {
-  position: relative;
   color: var(--accent-color);} 
      
 .menu__link--current::after {
@@ -52,6 +51,7 @@ display: block;
 padding-top: 32px;
 padding-bottom: 32px;
 margin-left: 0;
+position: relative;
 
 &:not(:last-child) {
 margin-right: 50px;

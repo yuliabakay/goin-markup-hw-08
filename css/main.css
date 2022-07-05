@@ -25,6 +25,14 @@ img {
   max-width: 100%;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -43,14 +51,6 @@ img {
 
 .logo--color-white {
   color: var(--primary-white-color);
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .page-header {
@@ -72,7 +72,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
 }
-.menu .menu__link {
+
+.menu__link {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
@@ -81,7 +82,15 @@ img {
   letter-spacing: 0.02em;
   transition: color 250ms var(--timing-function);
 }
-.menu .menu__link::after {
+.menu__link:hover, .menu__link:focus {
+  color: #2196f3;
+}
+
+.menu__link--current {
+  color: var(--accent-color);
+}
+
+.menu__link--current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -91,27 +100,17 @@ img {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  opacity: 0;
 }
-.menu .menu__link:hover, .menu .menu__link:focus {
-  color: #2196f3;
-}
-.menu .menu__item {
+
+.menu__item {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 0;
   position: relative;
 }
-.menu .menu__item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
-}
-
-.menu__link .current {
-  color: var(--accent-color);
-}
-.menu__link .current::after {
-  opacity: 1;
 }
 
 .connect {
