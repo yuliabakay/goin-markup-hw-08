@@ -5,7 +5,12 @@
 }
 
 .contacts {
-  display: flex;
+  /*display: flex;*/
+}
+
+.footer-adress-information .logo{
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-adress {
@@ -17,6 +22,10 @@
   margin-top: 20px;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+.footer-adress .item {
+  text-align: center;
 }
 
 .footer-adress .item + .item {
@@ -51,6 +60,8 @@
 .footer-soc-list {
   display: flex;
   padding-inline-start: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-soc-item {
@@ -86,7 +97,10 @@
 }
 
 .footer-soc-information {
-  margin-left: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /*margin-left: 70px;*/
 }
 
 .communication-title{
@@ -96,6 +110,8 @@
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-bottom: 20px;
+
+  text-align: center;
 }
 
 .footer-btn {
@@ -111,7 +127,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  margin-left: 12px;
+  /*margin-left: 12px;*/
    
   border-color: transparent; 
   position: relative;
@@ -119,16 +135,17 @@
   padding-left: 0;
   padding-right: 29px;
   cursor: pointer;
+
 }
 
 .footer-communication{
   display: block;
-  margin-left: 93px;
+  /*margin-left: 93px;*/
 }
 
 .subscription {
-  display: flex;
-  right: 0;
+  /*display: flex;
+  right: 0;*/
 }
 
 .footer-icon-btn{
@@ -156,4 +173,7 @@
   color: rgba(255, 255, 255, 0.6);
   padding-top: 15px;
   padding-left: 16px;
+
+  align-items: center;
+  justify-content: center;
 }
