@@ -1,11 +1,16 @@
 .menu-pictures {
   display: flex;
   flex-wrap: wrap;
+
+  flex-basis: calc(100% / 3 - 60px);
+  margin: -15px;
+
+
   justify-content: center;
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
-
+  
      .item {
      width: 370px;
      height: 404px;

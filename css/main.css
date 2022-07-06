@@ -318,6 +318,15 @@ summary {
   src: local(""), url("../fonts/raleway-v27-cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v27-cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v27-cyrillic-700.woff") format("woff"), url("../fonts/raleway-v27-cyrillic-700.ttf") format("truetype"), url("../fonts/raleway-v27-cyrillic-700.svg#Raleway") format("svg");
   /* Legacy iOS */
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid red;
+}
+
 body {
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -383,10 +392,8 @@ img {
   text-decoration: none;
   letter-spacing: 0.02em;
   transition: color 250ms var(--timing-function);
-  
 }
-.menu__link:hover, 
-.menu__link:focus {
+.menu__link:hover, .menu__link:focus {
   color: #2196f3;
 }
 
@@ -497,7 +504,6 @@ img {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  flex-wrap: wrap;
   padding-inline-start: 0;
   justify-content: center;
 }
@@ -1166,6 +1172,8 @@ img {
 .menu-pictures {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(33.3333333333% - 60px);
+  margin: -15px;
   justify-content: center;
   padding-inline-start: 0;
   margin-top: 0;
