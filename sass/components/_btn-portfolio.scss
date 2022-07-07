@@ -1,18 +1,28 @@
 .main {
-  padding-top: 100px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /*padding-top: 100px;
+  padding-bottom: 94px;*/
 }
 
 .menu-button {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  /*justify-content: center;
+  margin-bottom: 50px;*/
+  margin-bottom: 40px;
   margin-top: 0;
   padding-inline-start: 0;
 }
 
 .menu-button .item + .item {
-  margin-left: 8px;
+  /*margin-left: 8px;*/
+  
+}
+
+.menu-button .item {
+  margin-bottom: 15px;
+  margin-right: 8px;
 }
 
 .main-button {
