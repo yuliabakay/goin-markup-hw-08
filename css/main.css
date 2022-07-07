@@ -1023,6 +1023,7 @@ img {
   /*display: flex;}*/
 .footer-logo {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .footer-adress {
@@ -1064,6 +1065,7 @@ img {
   line-height: 1.17;
   font-style: normal;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .footer-soc-list {
@@ -1116,6 +1118,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   margin-bottom: 20px;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -1138,6 +1141,10 @@ img {
   padding-left: 0;
   padding-right: 29px;
   cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-communication {
