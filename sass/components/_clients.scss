@@ -22,11 +22,8 @@
 
 .clients-icon-list {
   display: flex;
-
   flex-wrap: wrap;
-  flex-basis: calc(100% /2 - 30px);
-
-
+  gap: 15px;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -35,7 +32,9 @@
 }
 
 .clients-icon-item {
-  width: 210px;
+  width: calc((100% - 30px) / 2);
+   
+  /*width: 210px;
   /*width: 170px;*/
   height: 92px;
   border-radius: 4px;
@@ -47,10 +46,16 @@
    &:focus {
     border-color: var(--accent-color);}
 
-  &:nth-child(2n) {
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 3);
+  }  
+
+  /*&:nth-child(2n) {
     margin-left: 30px;
     }
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
+
+   
 }
 
 /*.clients-icon-item + .clients-icon-item {
