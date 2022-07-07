@@ -8,11 +8,16 @@
 .menu-button {
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
   /*justify-content: center;
   margin-bottom: 50px;*/
   margin-bottom: 40px;
   margin-top: 0;
   padding-inline-start: 0;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 /*.menu-button .item + .item {
