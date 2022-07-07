@@ -4,13 +4,12 @@
   padding-bottom: 60px;
 }
 
-.contacts {
-  /*display: flex;*/
-}
+/*.contacts {
+  /*display: flex;}*/
 
-.footer-adress-information .logo{
-  align-items: center;
-  justify-content: center;
+
+.footer-logo {
+  text-align: center;
 }
 
 .footer-adress {
@@ -135,7 +134,8 @@
   padding-left: 0;
   padding-right: 29px;
   cursor: pointer;
-
+  
+  
 }
 
 .footer-communication{
@@ -143,10 +143,10 @@
   /*margin-left: 93px;*/
 }
 
-.subscription {
+/*.subscription {
   /*display: flex;
-  right: 0;*/
-}
+  right: 0;}*/
+
 
 .footer-icon-btn{
   fill: var(--primary-white-color);
@@ -155,7 +155,8 @@
 }
 
 .footer-input{
-  width: 358px;
+  width: 450px;
+  /*width: 358px;*/
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -163,6 +164,9 @@
   padding-left: 16px;
   background-color: #2F303A;
   color: var(--primary-white-color);
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .placeholder{
