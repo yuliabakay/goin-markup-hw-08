@@ -4,10 +4,11 @@
   padding-bottom: 60px;
 }
 
-/*.contacts {
-  /*display: flex;}*/
-
-
+.contacts {
+  @media screen and (min-width: 1200px) {
+  display: flex;}
+}
+  
 .footer-logo {
   text-align: center;
   margin-bottom: 20px;
@@ -173,11 +174,12 @@
   /*margin-left: 93px;*/
 }
 
-/*.subscription {
-  /*display: flex;
-  right: 0;}*/
-
-
+.subscription {
+  @media screen and (min-width: 1200px) {
+  display: flex;
+  right: 0;}
+} 
+  
 .footer-icon-btn{
   fill: var(--primary-white-color);
   position: absolute;

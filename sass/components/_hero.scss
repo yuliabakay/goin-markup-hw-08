@@ -12,10 +12,12 @@
 
   padding-top: 118px;
   padding-bottom: 118px;
-  /*padding-top: 200px;
-  padding-bottom: 200px;*/
- 
-  /*min-width: 1600px;*/
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    min-width: 1600px;
+  }
 }
 
 .hero__title {
@@ -24,8 +26,12 @@
 
   font-size: 26px;
   line-height: 1.62;
-  /*font-size: 44px;
-  line-height: 1.36;*/
+
+@media screen and (min-width: 1200px) {
+  font-size: 44px;
+  line-height: 1.36;
+  }
+  
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
