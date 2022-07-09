@@ -485,7 +485,7 @@ img {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    min-width: 1600px;
+    /*min-width: 1600px;*/
   }
 }
 
