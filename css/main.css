@@ -1154,6 +1154,7 @@ img {
 @media screen and (min-width: 1200px) {
   .footer-adress .item {
     text-align: start;
+    white-space: nowrap;
   }
 }
 
