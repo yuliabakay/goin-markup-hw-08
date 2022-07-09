@@ -1,7 +1,8 @@
-@media screen and (min-width: 1200px) { 
+
 .benefits {
+  @media screen and (min-width: 1200px) { 
   padding-bottom: 94px;
-}
+
 
 .benefits-title {
   color: var(--primary-text-color);
@@ -50,5 +51,5 @@
   right: 0;
 }
 }
-
+}
 

@@ -337,7 +337,7 @@ summary {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1600px;
+    max-width: 1200px;
   }
 }
 
@@ -546,6 +546,11 @@ img {
   padding-inline-start: 0;
   justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+  .features__list {
+    gap: 0;
+  }
+}
 
 .features__item {
   width: 100%;
@@ -563,10 +568,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  features__item + .features__item {
+  .features__item + .features__item {
     margin-left: 30px;
   }
 }
+
 .features__box {
   width: 100%;
   /*width: 270px;*/
@@ -614,8 +620,7 @@ img {
   .benefits {
     padding-bottom: 94px;
   }
-
-  .benefits-title {
+  .benefits .benefits-title {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -624,24 +629,20 @@ img {
     margin-bottom: 50px;
     margin-top: 0;
   }
-
-  .benefits-list {
+  .benefits .benefits-list {
     display: flex;
     justify-content: center;
     padding-inline-start: 0;
     margin-top: 0;
     margin-bottom: 0;
   }
-
-  .benefits-list .item + .item {
+  .benefits .benefits-list .item + .item {
     margin-left: 30px;
   }
-
-  .benefits-card {
+  .benefits .benefits-card {
     position: relative;
   }
-
-  .benefits-item-title {
+  .benefits .benefits-item-title {
     color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
@@ -661,6 +662,7 @@ img {
     right: 0;
   }
 }
+
 .team {
   background-color: #f5f4fa;
   padding-top: 60px;
@@ -1129,6 +1131,12 @@ img {
   text-align: center;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    text-align: start;
+    margin-bottom: 0;
+  }
+}
 
 .footer-adress {
   color: var(--primary-white-color);
@@ -1143,6 +1151,11 @@ img {
 .footer-adress .item {
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-adress .item {
+    text-align: start;
+  }
+}
 
 .footer-adress .item + .item {
   margin-top: 9px;
@@ -1154,12 +1167,23 @@ img {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-adress-information {
+    width: 50%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .box-footer {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box-footer {
+    flex-wrap: nowrap;
+    gap: 0;
   }
 }
 
@@ -1191,12 +1215,24 @@ img {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    margin-bottom: 0;
+  }
+}
 
 .footer-soc-list {
   display: flex;
   padding-inline-start: 0;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-soc-list {
+    margin-bottom: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 .footer-soc-item {
@@ -1232,11 +1268,17 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  /*margin-left: 70px;*/
 }
 @media screen and (min-width: 768px) {
   .footer-soc-information {
     width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-soc-information {
+    width: 50%;
+    text-align: start;
+    margin-left: 70px;
   }
 }
 
@@ -1249,6 +1291,12 @@ img {
   margin-bottom: 20px;
   margin-top: 60px;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .communication-title {
+    margin-top: 0;
+    text-align: start;
+  }
 }
 
 .footer-btn {
@@ -1264,7 +1312,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  /*margin-left: 12px;*/
   border-color: transparent;
   position: relative;
   padding-left: 0;
@@ -1275,10 +1322,21 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 1200px) {
+  .footer-btn {
+    margin-left: 12px;
+    margin-top: 0;
+  }
+}
 
 .footer-communication {
   display: block;
-  /*margin-left: 93px;*/
+}
+@media screen and (min-width: 1200px) {
+  .footer-communication {
+    margin-left: 93px;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1296,7 +1354,6 @@ img {
 
 .footer-input {
   width: 100%;
-  /*width: 358px;*/
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1312,6 +1369,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-input {
+    width: 358px;
   }
 }
 

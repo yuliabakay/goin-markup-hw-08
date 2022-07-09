@@ -12,6 +12,10 @@
 .footer-logo {
   text-align: center;
   margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-bottom: 0;
+  }
 }
 
 .footer-adress {
@@ -19,7 +23,6 @@
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-
   margin-top: 20px;
   padding-left: 0;
   margin-bottom: 0;
@@ -27,6 +30,9 @@
 
 .footer-adress .item {
   text-align: center;
+  @media screen and (min-width: 1200px) { 
+    text-align: start;
+  }
 }
 
 .footer-adress .item + .item {
@@ -38,14 +44,22 @@
     width: calc((100% - 30px) / 2);
     margin-right: 0;
   }
-  
+  @media screen and (min-width: 1200px) { 
+    width: calc(100% / 2);
+  }
 }
 
 .box-footer{
   @media screen and (min-width: 768px) {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;}
+  gap: 15px;
+}
+
+  @media screen and (min-width: 1200px) { 
+  flex-wrap: nowrap; 
+  gap: 0; 
+  }
 }
 
 .footer-link {
@@ -75,6 +89,9 @@
   @media screen and (min-width: 768px) {
     margin-top: 0;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .footer-soc-list {
@@ -82,6 +99,11 @@
   padding-inline-start: 0;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 .footer-soc-item {
@@ -92,6 +114,7 @@
    &:first-child {
    margin-left: 0;
 }
+
 }
 
 .footer-soc-link {
@@ -120,9 +143,14 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  /*margin-left: 70px;*/
+
   @media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2); 
+  }
+  @media screen and (min-width: 1200px) { 
+    width: calc(100% / 2);
+    text-align: start;
+    margin-left: 70px;
   }
 }
 
@@ -136,9 +164,11 @@
   color: var(--primary-white-color);
   margin-bottom: 20px;
   margin-top: 60px;
-
-
   text-align: center;
+  @media screen and (min-width: 1200px) { 
+    margin-top: 0;
+    text-align: start;
+  }
 }
 
 .footer-btn {
@@ -154,8 +184,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  /*margin-left: 12px;*/
-   
+    
   border-color: transparent; 
   position: relative;
 
@@ -166,18 +195,25 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  @media screen and (min-width: 1200px) { 
+    margin-left: 12px;
+    margin-top: 0; 
+  } 
 }
 
 .footer-communication{
   display: block;
-  /*margin-left: 93px;*/
+  @media screen and (min-width: 1200px) { 
+   margin-left: 93px;
+   right: 0;
+  }
 }
 
 .subscription {
   @media screen and (min-width: 1200px) {
   display: flex;
-  right: 0;}
+  right: 0;
+}
 } 
   
 .footer-icon-btn{
@@ -188,15 +224,12 @@
 
 .footer-input{
   width: 100%;
-  /*width: 358px;*/
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-
   padding-left: 16px;
   background-color: #2F303A;
   color: var(--primary-white-color);
-
   margin-left: auto;
   margin-right: auto;
 
@@ -205,6 +238,10 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) { 
+    width: 358px;
   }
 }
 
