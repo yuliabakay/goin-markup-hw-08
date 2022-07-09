@@ -1,16 +1,15 @@
 .main {
   padding-top: 60px;
   padding-bottom: 60px;
-  /*padding-top: 100px;
-  padding-bottom: 94px;*/
+  @media screen and (min-width: 1200px) { 
+  padding-top: 100px;
+  padding-bottom: 94px;
+  }
 }
 
 .menu-button {
   display: flex;
   flex-wrap: wrap;
-  /*gap: 15px;
-  /*justify-content: center;
-  margin-bottom: 50px;*/
   margin-bottom: 40px;
   margin-top: 0;
   padding-inline-start: 0;
@@ -18,11 +17,18 @@
   @media screen and (min-width: 768px) {
     justify-content: center;
   }
+  @media screen and (min-width: 1200px) { 
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }
 
-/*.menu-button .item + .item {
-  /*margin-left: 8px; 
-}*/
+.menu-button .item + .item {
+  @media screen and (min-width: 1200px) { 
+  margin-left: 8px;
+}
+}
 
 .menu-button .item {
   margin-bottom: 15px;
