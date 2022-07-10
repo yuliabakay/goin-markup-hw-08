@@ -1,7 +1,11 @@
 
 .benefits {
+  display: none;
   @media screen and (min-width: 1200px) { 
   padding-bottom: 94px;
+  display: flex;
+}
+}
 
 
 .benefits-title {
@@ -50,6 +54,6 @@
   bottom: 0;
   right: 0;
 }
-}
-}
+
+
 
