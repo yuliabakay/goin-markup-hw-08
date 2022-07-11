@@ -11,11 +11,17 @@
 }
 
 .menu {
-  display: flex;
+  display: none;
   margin-left: 93px;
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
+   @media screen and (min-width: 768px) {
+  display: flex;
+  }
+  @media screen and (min-width: 1200px) { 
+  display: flex;     
+}
 }
 
 .menu__link {
@@ -59,8 +65,14 @@ margin-right: 50px;
 }
 
 .connect {
+  display: none;
+  margin-left: auto;
+  @media screen and (min-width: 768px) {
   display: flex;
-  margin-left: auto;    
+  }
+  @media screen and (min-width: 1200px) { 
+  display: flex;     
+}
 }
 
 .connect__link {
@@ -86,4 +98,78 @@ margin-right: 50px;
   margin-right: 10px;
   fill: currentColor;
   vertical-align: middle;
+}
+
+.mobile-open-button{
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  border-color: transparent;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+  display: none;
+  }
+  @media screen and (min-width: 1200px) { 
+  display: none;     
+}
+}
+
+.mobile-menu-icon {
+  fill: #212121;
+  transition: fill 250ms var(--timing-function);
+
+    &:hover,
+    &:focus{
+    fill: var(--accent-color);
+    cursor: pointer;
+}
+}
+
+.mob-menu-item{
+  color: #212121;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+
+}
+
+.mob-connect-tel{
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+}
+
+.mob-connect-mail{
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.mobile-close-button{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.mobile-button-icon{
+  fill: black;
+  transition: fill 250ms var(--timing-function);
+  
+    &:hover,
+    &:focus{
+    fill: var(--accent-color);
+    cursor: pointer;
+}
+}
+
+.mobile-soc-list{
+  display: block;
+}
+
+.mobile-soc-item {
+  
 }
