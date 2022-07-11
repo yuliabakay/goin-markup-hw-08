@@ -499,6 +499,16 @@ img {
   vertical-align: middle;
 }
 
+.mobile-menu {
+  position: fixed;
+  z-index: 2;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .mobile-open-button {
   display: block;
   margin-left: auto;
@@ -527,7 +537,8 @@ img {
 }
 
 .mob-menu-pages {
-  margin: 0;
+  margin-top: 48px;
+  margin-left: 40px;
 }
 
 .mob-menu-link {
@@ -545,6 +556,7 @@ img {
 .mob-connect {
   margin-top: 302px;
   margin-bottom: 64px;
+  margin-left: 40px;
 }
 
 .mob-menu-item {
@@ -598,8 +610,13 @@ img {
   cursor: pointer;
 }
 
+.mobile-conteiner {
+  bottom: 48px;
+}
+
 .mobile-soc-list {
   display: flex;
+  margin-left: 40px;
 }
 
 .mobile-soc-link {
@@ -608,8 +625,11 @@ img {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
   padding-right: 10px;
+}
+
+.mobile-soc-item:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .mobile-soc-item + .mobile-soc-item {
