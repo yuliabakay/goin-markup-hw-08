@@ -459,7 +459,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .connect {
-    display: flex;
+    display: block;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -481,8 +481,16 @@ img {
   color: var(--accent-color);
 }
 
-.connect__item + .connect__item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .connect__item + .connect__item {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .connect__item + .connect__item {
+    margin-left: 50px;
+    margin-top: 0;
+  }
 }
 
 .connect__icon {
@@ -518,12 +526,36 @@ img {
   cursor: pointer;
 }
 
-.mob-menu-item {
+.mob-menu-pages {
+  margin: 0;
+}
+
+.mob-menu-link {
   color: #212121;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.18;
   letter-spacing: 0.02em;
+}
+.mob-menu-link:hover,
+.mob-menu-link :focus {
+  color: var(--accent-color);
+}
+
+.mob-connect {
+  margin-top: 302px;
+  margin-bottom: 64px;
+}
+
+.mob-menu-item {
+  margin-bottom: 32px;
+}
+.mob-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.mob-menu-link.current {
+  color: var(--accent-color);
 }
 
 .mob-connect-tel {
@@ -532,6 +564,10 @@ img {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
+}
+
+.mob-item-tel {
+  margin-bottom: 32px;
 }
 
 .mob-connect-mail {
@@ -545,6 +581,12 @@ img {
 .mobile-close-button {
   background-color: transparent;
   border-color: transparent;
+  top: 21px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 
 .mobile-button-icon {
@@ -556,12 +598,22 @@ img {
   cursor: pointer;
 }
 
+.mobile-soc-list {
+  display: flex;
+}
+
 .mobile-soc-link {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+}
+
+.mobile-soc-item + .mobile-soc-item {
+  margin-left: 10px;
 }
 
 .hero {
