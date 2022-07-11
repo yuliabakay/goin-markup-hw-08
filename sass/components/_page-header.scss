@@ -167,9 +167,17 @@ margin-right: 50px;
 }
 
 .mobile-soc-list{
-  display: block;
+ 
 }
 
 .mobile-soc-item {
   
+}
+
+.mobile-soc-link{
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
 }

@@ -556,8 +556,12 @@ img {
   cursor: pointer;
 }
 
-.mobile-soc-list {
-  display: block;
+.mobile-soc-link {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
 }
 
 .hero {
