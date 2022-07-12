@@ -115,9 +115,9 @@
 .members-soc-icon {
   fill: #afb1b8;
   transition: fill 250ms var(--timing-function);
-}
-
-.members-soc-link:hover .members-soc-icon,
-.members-soc-link:focus .members-soc-icon {
+  .members-soc-link:hover &,
+.members-soc-link:focus & {
   fill: var(--primary-white-color);
 }
+}
+

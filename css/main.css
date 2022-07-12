@@ -988,9 +988,7 @@ img {
   fill: #afb1b8;
   transition: fill 250ms var(--timing-function);
 }
-
-.members-soc-link:hover .members-soc-icon,
-.members-soc-link:focus .members-soc-icon {
+.members-soc-link:hover .members-soc-icon, .members-soc-link:focus .members-soc-icon {
   fill: var(--primary-white-color);
 }
 
@@ -1073,6 +1071,7 @@ img {
     margin-left: 30px;
   }
 }
+
 .clients-icon {
   display: flex;
   align-items: center;
@@ -1087,9 +1086,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
-
-.clients-icon:hover .clients-logo-icon,
-.clients-icon:focus .clients-logo-icon {
+.clients-icon:hover .clients-logo-icon, .clients-icon:focus .clients-logo-icon {
   fill: var(--accent-color);
 }
 

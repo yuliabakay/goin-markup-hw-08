@@ -63,8 +63,8 @@
 }  
 }
 
-@media screen and (min-width: 1200px) {
   .clients-icon-item + .clients-icon-item {
+    @media screen and (min-width: 1200px) {
   margin-left: 30px;}
 }
 
@@ -81,9 +81,9 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-}
-
-.clients-icon:hover .clients-logo-icon,
-.clients-icon:focus .clients-logo-icon {
+  .clients-icon:hover &,
+  .clients-icon:focus & {
   fill: var(--accent-color);
 }
+}
+
