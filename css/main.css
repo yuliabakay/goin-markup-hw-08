@@ -471,11 +471,17 @@ img {
 .connect__link {
   color: var(--secondary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   text-decoration: none;
   letter-spacing: 0.02em;
   transition: color 250ms var(--timing-function);
+}
+@media screen and (min-width: 1200px) {
+  .connect__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 .connect__link:hover, .connect__link:focus {
   color: var(--accent-color);
@@ -1097,10 +1103,6 @@ img {
   transition: opacity 250ms linear, visibility 250ms linear;
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0) rotate(360deg);
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -1113,6 +1115,9 @@ img {
   transition: transform 250ms linear;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0) rotate(360deg);
 }
 
 .modal-close-button {
@@ -1756,13 +1761,12 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
 }
+.menu-pictures .item:hover .image-text {
+  opacity: 1;
+}
 
 .menu-pictures .item:hover .image-card::before {
   transform: translateY(0);
-}
-
-.menu-pictures .item:hover .image-text {
-  opacity: 1;
 }
 
 .title-pictures {

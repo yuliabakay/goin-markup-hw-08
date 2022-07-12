@@ -16,10 +16,10 @@
   padding-inline-start: 0;
   margin-top: 0;
   margin-bottom: 0;
-   @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   display: flex;
   }
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
   display: flex;     
 }
 }
@@ -67,10 +67,10 @@ margin-right: 50px;
 .connect {
   display: none;
   margin-left: auto;
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   display: block;
   }
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
   display: flex;     
 }
 }
@@ -78,11 +78,15 @@ margin-right: 50px;
 .connect__link {
      color: var(--secondary-text-color);
      font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14;
+     font-size: 12px;
+     line-height: 1.16;
      text-decoration: none;
      letter-spacing: 0.02em;
      transition: color 250ms var(--timing-function);
+     @media screen and (min-width: 1200px) { 
+      font-size: 14px;
+     line-height: 1.14;
+     }
 
        &:hover,
        &:focus {
@@ -114,8 +118,7 @@ margin-right: 50px;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
-  
+  height: 100vh; 
 }
 
 .mobile-container {
@@ -132,10 +135,10 @@ margin-right: 50px;
   background-color: transparent;
   border-color: transparent;
   justify-content: center;
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   display: none;
   }
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
   display: none;     
 }
 }
@@ -169,8 +172,7 @@ margin-right: 50px;
   }
 }
 
-.mob-connect{
-  
+.mob-connect{  
    margin-bottom: 64px;
    margin-left: 40px;
 }
@@ -191,13 +193,11 @@ margin-right: 50px;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em; 
 }
 
 .mob-item-tel{
   margin-bottom: 32px;
-
 }
 
 .mob-connect-mail{
@@ -237,7 +237,6 @@ margin-right: 50px;
 .mobile-soc-list{
  display: flex;
  margin-left: 40px;
-
 }
 
 .mobile-soc-link{
@@ -245,10 +244,8 @@ margin-right: 50px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
-  letter-spacing: 0.02em;
-  
+  letter-spacing: 0.02em; 
   padding-right: 10px; 
-
 }
 
 .mobile-soc-item{

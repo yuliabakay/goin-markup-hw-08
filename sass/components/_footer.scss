@@ -5,14 +5,14 @@
 }
 
 .contacts {
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   display: flex;}
 }
   
 .footer-logo {
   text-align: center;
   margin-bottom: 20px;
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     text-align: start;
     margin-bottom: 0;
   }
@@ -30,9 +30,9 @@
 
 .footer-adress .item {
   text-align: center;
-  @media screen and (min-width: 1200px) { 
-    text-align: start;
-    white-space: nowrap;
+@media screen and (min-width: 1200px) { 
+  text-align: start;
+  white-space: nowrap;
   }
 }
 
@@ -41,23 +41,22 @@
 }
 
 .footer-adress-information {
-  @media screen and (min-width: 768px) {
-    width: calc((100% - 30px) / 2);
-    margin-right: 0;
+@media screen and (min-width: 768px) {
+  width: calc((100% - 30px) / 2);
+  margin-right: 0;
   }
-  @media screen and (min-width: 1200px) { 
-    width: calc(100% / 2);
+@media screen and (min-width: 1200px) { 
+  width: calc(100% / 2);
   }
 }
 
 .box-footer{
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
-
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
   flex-wrap: nowrap; 
   gap: 0; 
   }
@@ -72,7 +71,6 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-
     &:hover,
     &:focus {
   color: var(--accent-color);
@@ -87,10 +85,10 @@
   font-style: normal;
   margin-bottom: 20px;
   margin-top: 60px;
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     margin-top: 0;
   }
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     margin-bottom: 0;
   }
 }
@@ -100,7 +98,7 @@
   padding-inline-start: 0;
   align-items: center;
   justify-content: center;
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     margin-bottom: 0;
     align-items: flex-start;
     justify-content: flex-start;
@@ -111,11 +109,9 @@
   width: 44px;
   height: 44px;
   margin-left: 10px;
-
    &:first-child {
    margin-left: 0;
 }
-
 }
 
 .footer-soc-link {
@@ -129,7 +125,6 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-function);
-
     &:hover,
     &:focus {
     background-color: var(--accent-color);
@@ -144,18 +139,15 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     width: calc((100% - 30px) / 2); 
   }
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
     width: calc(100% / 2);
     text-align: start;
     margin-left: 70px;
   }
 }
-
-
 
 .communication-title{
   font-weight: 700;
@@ -166,7 +158,7 @@
   margin-bottom: 20px;
   margin-top: 60px;
   text-align: center;
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
     margin-top: 0;
     text-align: start;
   }
@@ -184,11 +176,9 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.06em;
-    
+  letter-spacing: 0.06em;  
   border-color: transparent; 
   position: relative;
-
   padding-left: 0;
   padding-right: 29px;
   cursor: pointer;
@@ -196,7 +186,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
     margin-left: 12px;
     margin-top: 0; 
   } 
@@ -204,14 +194,14 @@
 
 .footer-communication{
   display: block;
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
    margin-left: 93px;
    right: 0;
   }
 }
 
 .subscription {
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   display: flex;
   right: 0;
 }
@@ -233,15 +223,13 @@
   color: var(--primary-white-color);
   margin-left: auto;
   margin-right: auto;
-
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     width: 450px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-
-  @media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) { 
     width: 358px;
   }
 }
@@ -254,7 +242,6 @@
   color: rgba(255, 255, 255, 0.6);
   padding-top: 15px;
   padding-left: 16px;
-
   align-items: center;
   justify-content: center;
 }

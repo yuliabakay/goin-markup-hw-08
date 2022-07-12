@@ -8,9 +8,7 @@
   transition: opacity 250ms linear, visibility 250ms linear;
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0) rotate(360deg);
-}
+
 
 .modal {
   position: absolute;
@@ -24,6 +22,9 @@
   transition: transform 250ms linear;
   padding-top: 40px;
   padding-bottom: 40px;
+  .backdrop.is-hidden &{
+  transform: translate(-50%, -50%) scale(0) rotate(360deg);
+}
 }
 
 .modal-close-button {
