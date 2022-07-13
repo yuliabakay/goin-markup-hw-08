@@ -1026,6 +1026,9 @@ img {
   margin-left: 30px;
   margin-bottom: 30px;
 }
+.clients-icon-item:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 768px) {
   .clients-icon-item {
     width: calc((100% - 30px) / 3);
