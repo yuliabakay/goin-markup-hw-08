@@ -1780,14 +1780,17 @@ img {
 .menu-pictures .item:not(:last-child) {
   margin-bottom: 30px;
 }
-.menu-pictures .item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 @media screen and (min-width: 768px) {
   .menu-pictures .item {
     width: calc((100% - 30px) / 2);
     margin-bottom: 0;
   }
+  .menu-pictures .item:nth-child(2n) {
+    margin-left: 30px;
+  }
+}
+.menu-pictures .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 @media screen and (min-width: 1200px) {
   .menu-pictures .item {
